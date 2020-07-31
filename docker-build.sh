@@ -9,6 +9,12 @@ fi
 
 set -e
 
+apt-get update
+apt-get -y install libxml-xpath-perl
+apt-get clean autoclean
+apt-get autoremove --yes
+rm -rf /var/lib/apt/lists/*
+
 cd /tmp
 BUILDDIR="$(mktemp -d)"
 cd "$BUILDDIR"
