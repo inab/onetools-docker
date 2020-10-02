@@ -14,7 +14,7 @@ docker build -t onetools:5.8.5 .
 docker run --rm -ti onetools:5.8.5 onevm list --verbose --endpoint http://yourONEfrontend:2633/RPC2 --user yourONEuser --password yourONEpass
 ```
 
-you can find more information about [onetools here](http://docs.opennebula.io/5.8/operation/references/cli.html).
+you can find more information about [onetools here](http://docs.opennebula.io/5.8/operation/references/cli.html) and the [honored environment variables](http://docs.opennebula.io/5.8/operation/users_groups_management/manage_users.html?highlight=one_auth#shell-environment).
 
 ## Advanced example
 
